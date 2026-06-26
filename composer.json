@@ -1,6 +1,7 @@
 {
     "name": "wiseadmin/wise-jwt",
     "description": "WiseAdmin JWT 令牌管理包 — 签发、校验、吊销、续签，支持 HMAC/RSA/ECDSA/EdDSA 多种算法",
+    "homepage": "https://github.com/hiwiseadmin/wise-jwt",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -9,6 +10,12 @@
         "jwt",
         "auth",
         "token"
+    ],
+    "authors": [
+        {
+            "name": "WiseAdmin Team",
+            "email": "wiseadmin@126.com"
+        }
     ],
     "require": {
         "php": ">=8.1",
@@ -38,13 +45,6 @@
             }
         }
     },
-    "homepage": "https://github.com/hiwiseadmin/wise-jwt",
-    "authors": [
-        {
-            "name": "WiseAdmin Team",
-            "email": "wiseadmin@126.com"
-        }
-    ],
     "archive": {
         "exclude": [
             "/tests",
